@@ -37,7 +37,7 @@
 #' )
 #' pivotkz(df, starts_with("X"), "value")
 #'
-#' Example 2: Using the maternal_mortality dataset included in the package
+#' # Example 2: Using the maternal_mortality dataset included in the package
 #' data(maternal_mortality)
 #' head(maternal_mortality)
 #' long_mm <- pivotkz(
