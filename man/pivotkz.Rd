@@ -21,17 +21,11 @@ pivotkz(data, cols, value_name, names_to = "year", prefix = "X")
 A tibble in long format, with identifier columns preserved, and the
   selected `cols` pivoted into two columns: one named by `names_to`, and
   one named by `value_name`.
-
-A tibble in long format, with identifier columns preserved, and the
-  selected `cols` pivoted into two columns: one named by `names_to`, and
-  one named by `value_name`.
 }
 \description{
 Convert a dataset from wide to long format
 }
 \examples{
-Convert a dataset from wide to long format
-
 library(dplyr)
 library(tidyr)
 
@@ -52,5 +46,4 @@ long_mm <- pivotkz(
   value_name = "mortality_ratio"
 )
 head(long_mm)
-
 }
