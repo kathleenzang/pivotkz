@@ -1,0 +1,25 @@
+Package: pivotkz
+Type: Package
+Title: Convert a dataset from wide to long format
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Kathleen", "Zang",
+      email = "kathleen.zang@mail.utoronto.ca",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    tidyr
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

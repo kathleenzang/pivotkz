@@ -1,0 +1,20 @@
+#' Example dataset
+#'
+#' A dataset imported from `maternal_mortality.csv` for demonstration.
+#'
+#' @format A data frame with 186 rows and 23 variables:
+#' \describe{
+#'   \item{iso}{ISO 3-letter country code}
+#'   \item{country}{Country name}
+#'   \item{indicator}{Indicator name (“Maternal mortality ratio (modeled estimate, per 100,000 live births)”)}
+#'   \item{X2000–X2019}{Numeric: Maternal mortality ratio for each year from 2000 to 2019.
+#'                       Column names correspond to years prefixed with "X".}
+#' }
+#'
+#' @source World Health Organization (WHO) modeled estimates.
+#' @examples
+#' data(maternal_mortality)
+#' head(maternal_mortality)
+
+"maternal_mortality"
+
